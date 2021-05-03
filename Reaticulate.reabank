@@ -1,0 +1,1880 @@
+//def-lsb 1 Legato
+//def-lsb 2 Legato Fingered
+//def-lsb 3 Legato Ostinato Arp
+//def-lsb 4 Legato Glissando
+//def-lsb 5 Sustains
+//def-lsb 6 Sustains Immediate
+//def-lsb 7 Sustains Accented
+//def-lsb 8 Sustains Soft
+//def-lsb 9 Sustains Blurred
+//def-lsb 10 Espressivo Short
+//def-lsb 11 Espressivo Long
+//def-lsb 12 Tremolo
+//def-lsb 13 Tremolo Accented
+//def-lsb 14 Tremolos Sforzando
+//def-lsb 15 Tremolos Hook
+//def-lsb 16 Staccatissimo
+//def-lsb 17 Spiccato Exposed
+//def-lsb 90 Spiccato Blurred
+//def-lsb 18 Spiccato
+//def-lsb 91 Spiccatissimo
+//def-lsb 19 Staccato
+//def-lsb 20 Staccato Bold FFF
+//def-lsb 21 Staccato Blurred
+//def-lsb 22 Marcato Short
+//def-lsb 23 Marcato Long
+//def-lsb 24 Portato Short
+//def-lsb 25 Portato Long
+//def-lsb 26 Portato Blurred
+//def-lsb 27 Sforzando
+//def-lsb 28 Fortepiano
+//def-lsb 29 Crescendo
+//def-lsb 30 Crescendo Short
+//def-lsb 31 Crescendo Long
+//def-lsb 32 Swell Short
+//def-lsb 33 Swell Long
+//def-lsb 34 Repetitions 4th
+//def-lsb 35 Repetitions 8th
+//def-lsb 36 Repetitions 16th
+//def-lsb 37 Repetitions 16th Phrase
+//def-lsb 38 Repetitions 16th Continuous
+//def-lsb 39 Repetitions 32nd
+//def-lsb 40 Repetitions Triplets
+//def-lsb 41 Repetitions Triplets Phrase
+//def-lsb 42 Repetitions Triplets Continuous
+//def-lsb 43 Martele FFF
+//def-lsb 44 Pizzicato
+//def-lsb 45 Pizzicato Tremolo
+//def-lsb 46 Pizzicato Percussive
+//def-lsb 47 Doubles
+//def-lsb 48 Triples
+//def-lsb 49 Double Tongue
+//def-lsb 50 Double Tongue Measured
+//def-lsb 51 Triple Tongue
+//def-lsb 52 Triple Tongue Measured
+//def-lsb 53 Trills
+//def-lsb 54 Trills +1
+//def-lsb 55 Trills +2
+//def-lsb 56 Trills Accented
+//def-lsb 57 Trills Measured
+//def-lsb 58 Trills Sforzando
+//def-lsb 59 Trills Single
+//def-lsb 60 Trills Hook +1
+//def-lsb 61 Trills Hook +2
+//def-lsb 62 Glissandi
+//def-lsb 63 Glissando Up
+//def-lsb 64 Glissando Down
+//def-lsb 65 Playable Glissandi
+//def-lsb 66 Playable Runs
+//def-lsb 94 Octave Scale Runs Up
+//def-lsb 95 Octave Scale Runs Down
+//def-lsb 67 Cluster
+//def-lsb 68 Aleat
+//def-lsb 69 Ligeti
+//def-lsb 70 Short
+//def-lsb 71 Long
+//def-lsb 72 Up
+//def-lsb 73 Down
+//def-lsb 74 Up/Down
+//def-lsb 75 Runs Chromatic
+//def-lsb 76 Runs Accented
+//def-lsb 77 Rips
+//def-lsb 78 Sul Ponticello
+//def-lsb 79 Sul Tasto
+//def-lsb 80 Bartok
+//def-lsb 81 Flutter Tongue
+//def-lsb 82 Bending
+//def-lsb 83 Whirling
+//def-lsb 84 Overblown
+//def-lsb 85 Jet Whistle
+//def-lsb 86 Multiphonics
+//def-lsb 87 Slaps
+//def-lsb 88 Tongue Rams
+//def-lsb 89 Wind Noises
+//def-lsb 92 Bells Up
+//def-lsb 93 Zampano
+//def-lsb 100 Single Hits
+//def-lsb 101 Singles & Rolls
+//def-lsb 102 Rolls Short
+//def-lsb 103 Rolls Short Accented
+//def-lsb 104 Rolls Long
+//def-lsb 105 Dynamics
+//def-lsb 106 w/o Snares
+//def-lsb 107 Full Wire
+//def-lsb 108 Wire 3
+//def-lsb 109 Normal Mallet
+//def-lsb 110 Soft Mallet
+//def-lsb 111 Hard Mallet
+//def-lsb 112 Sustained
+//def-lsb 113 Stopped
+//def-lsb 114 Muted
+//def-lsb 125 Straight Mute
+//def-lsb 126 Harmon Stem Half
+//def-lsb 127 Harmon Stem In
+//def-lsb 115 Bowed
+//def-lsb 116 Brushed
+//def-lsb 117 True Damping
+//def-lsb 118 Impact
+//def-lsb 119 Baroque
+//def-lsb 120 1/4
+//def-lsb 121 1/2
+//def-lsb 122 1 bar
+//def-lsb 123 2 bar
+//def-lsb 124 4 bar
+//def-lsb 96 SFX
+
+
+// ==================================================
+// Berlin Strings
+// ==================================================
+
+//! g="Orchestral Tools/Berlin Strings" n="01. Violins I Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 1 1 OT-BS - Violins I Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=legato i=legato o=@3
+2 Legato Fingered
+//! c=legato i=legato o=@4
+3 Legato Ostinato Arp
+//! c=long i=note-half o=@5
+6 Sustains Immediate
+//! c=long i=accented-half o=@6
+7 Sustains Accented
+//! c=long i=note-whole o=@7
+8 Sustains Soft
+//! c=long i=tremolo o=@8
+12 Tremolo
+//! c=long i=tremolo o=@9
+13 Tremolo Accented
+//! c=long i=trill o=@10
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-light i=staccato o=note@1:25
+20 Staccato Bold FFF
+//! c=short i=spiccato o=note@1:26
+18 Spiccato
+//! c=short i=spiccato o=note@1:27
+17 Spiccato Exposed
+//! c=short i=spiccato o=note@1:28
+91 Spiccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:29
+24 Portato Short
+//! c=long-dark i=tenuto-half o=note@1:30
+25 Portato Long
+//! c=short-dark i=pizz o=note@1:31
+44 Pizzicato
+//! c=short-dark i=pizz-bartok o=note@1:32
+46 Pizzicato Percussive
+//! c=long-dark i=accented-quarter o=note@1:33
+43 Martele FFF
+//! c=short-light i=multitongued o=note@1:34
+47 Doubles
+//! c=short-light i=multitongued o=note@1:35
+48 Triples
+
+//! g="Orchestral Tools/Berlin Strings" n="01. Violins I Full"
+//! m="Use corresponding Kontakt multi"
+Bank 1 6 OT-BS - Violins I Full
+//! c=legato i=legato o=@7
+1 Legato
+//! c=legato i=legato o=@8
+2 Legato Fingered
+//! c=legato i=legato o=@9
+3 Legato Ostinato Arp
+//! c=long i=note-half o=@10
+6 Sustains Immediate
+//! c=long i=accented-half o=note@3:24
+7 Sustains Accented
+//! c=long i=note-whole o=@11
+8 Sustains Soft
+//! c=long i=note-whole o=note@3:25
+9 Sustains Blurred
+//! c=long i=tremolo o=note@3:28
+12 Tremolo
+//! c=long i=tremolo o=note@3:29
+13 Tremolo Accented
+//! c=long i=tremolo o=note@2:26
+14 Tremolos Sforzando
+//! c=long i=tremolo o=note@2:27
+15 Tremolos Hook
+//! c=long i=trill o=@14
+53 Trills
+//! c=long i=trill o=@15
+56 Trills Accented
+//! c=long i=trill o=@16
+58 Trills Sforzando
+//! c=long i=trill o=note@2:28
+60 Trills Hook +1
+//! c=long i=trill o=note@2:29
+61 Trills Hook +2
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-light i=staccato o=note@1:25
+20 Staccato Bold FFF
+//! c=short-light i=staccato-overblown o=note@2:24
+21 Staccato Blurred
+//! c=short i=spiccato o=note@1:26
+18 Spiccato
+//! c=short i=spiccato o=note@1:27
+17 Spiccato Exposed
+//! c=short i=spiccato-feathered o=note@2:25
+90 Spiccato Blurred
+//! c=short i=spiccato o=note@1:28
+91 Spiccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:29
+24 Portato Short
+//! c=long-dark i=tenuto-half o=note@1:30
+25 Portato Long
+//! c=long-dark i=tenuto-quarter o=note@2:30
+26 Portato Blurred
+//! c=long-dark i=accented-quarter o=note@3:26
+10 Espressivo Short
+//! c=long-dark i=accented-half o=note@3:27
+11 Espressivo Long
+//! c=short-dark i=pizz o=note@1:31
+44 Pizzicato
+//! c=short-dark i=pizz-bartok o=note@1:32
+46 Pizzicato Percussive
+//! c=long-dark i=accented-quarter o=note@1:33
+43 Martele FFF
+//! c=short-light i=multitongued o=note@1:34
+47 Doubles
+//! c=short-light i=multitongued o=note@1:35
+48 Triples
+//! c=short-light i=tremolo-measured o=@12
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@13
+97 Repetitions Triplet
+//! c=fx i=crescendo o=@4
+105 Dynamics
+//! c=legato-light i=legato-runs o=@5
+94 Octave Scale Runs Up
+//! c=legato-light i=legato-runs o=@6
+95 Octave Scale Runs Down
+
+//! g="Orchestral Tools/Berlin Strings" n="02. Violins II Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 1 2 OT-BS - Violins II Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=@4
+7 Sustains Accented
+//! c=long i=note-whole o=@5
+8 Sustains Soft
+//! c=long i=tremolo o=@6
+12 Tremolo
+//! c=long i=tremolo o=@7
+13 Tremolo Accented
+//! c=long i=trill o=@8
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-light i=staccato o=note@1:25
+20 Staccato Bold FFF
+//! c=short i=spiccato o=note@1:26
+18 Spiccato
+//! c=short i=spiccato o=note@1:27
+17 Spiccato Exposed
+//! c=long-dark i=accented-quarter o=note@1:28
+24 Portato Short
+//! c=long-dark i=tenuto-quarter o=note@1:29
+25 Portato Long
+//! c=short-dark i=pizz o=note@1:30
+44 Pizzicato
+//! c=long-dark i=accented-quarter o=note@1:31
+43 Martele FFF
+//! c=short-light i=multitongued o=note@1:32
+47 Doubles
+//! c=short-light i=multitongued o=note@1:33
+48 Triples
+
+//! g="Orchestral Tools/Berlin Strings" n="02. Violins II Full"
+//! m="Use corresponding Kontakt multi"
+Bank 1 7 OT-BS - Violins II Full
+//! c=legato i=legato o=@7
+1 Legato
+//! c=long i=note-half o=@8
+6 Sustains Immediate
+//! c=long i=accented-half o=note@3:24
+7 Sustains Accented
+//! c=long i=note-whole o=@9
+8 Sustains Soft
+//! c=long i=tremolo o=note@3:27
+12 Tremolo
+//! c=long i=tremolo o=note@3:28
+13 Tremolo Accented
+//! c=long i=tremolo o=note@1:35
+14 Tremolos Sforzando
+//! c=long i=tremolo o=note@2:24
+15 Tremolos Hook
+//! c=long i=trill o=@12
+53 Trills
+//! c=long i=trill o=@13
+56 Trills Accented
+//! c=long i=trill o=@14
+58 Trills Sforzando
+//! c=long i=trill o=note@2:25
+60 Trills Hook +1
+//! c=long i=trill o=note@2:26
+61 Trills Hook +2
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-light i=staccato o=note@1:25
+20 Staccato Bold FFF
+//! c=short-light i=staccato-overblown o=note@1:34
+21 Staccato Blurred
+//! c=short i=spiccato o=note@1:26
+18 Spiccato
+//! c=short i=spiccato o=note@1:27
+17 Spiccato Exposed
+//! c=long-dark i=tenuto-quarter o=note@1:28
+24 Portato Short
+//! c=long-dark i=tenuto-half o=note@1:29
+25 Portato Long
+//! c=long-dark i=accented-quarter o=note@3:25
+10 Espressivo Short
+//! c=long-dark i=accented-half o=note@3:26
+11 Espressivo Long
+//! c=short-dark i=pizz o=note@1:30
+44 Pizzicato
+//! c=long-dark i=accented-quarter o=note@1:31
+43 Martele FFF
+//! c=short-light i=multitongued o=note@1:32
+47 Doubles
+//! c=short-light i=multitongued o=note@1:33
+48 Triples
+//! c=short-light i=tremolo-measured o=@10
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@11
+97 Repetitions Triplet
+//! c=fx i=crescendo o=@4
+105 Dynamics
+//! c=legato-light i=legato-runs o=@5
+94 Octave Scale Runs Up
+//! c=legato-light i=legato-runs o=@6
+95 Octave Scale Runs Down
+
+//! g="Orchestral Tools/Berlin Strings" n="03. Violas Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 1 3 OT-BS - Violas Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=@4
+7 Sustains Accented
+//! c=long i=note-whole o=@5
+8 Sustains Soft
+//! c=long i=tremolo o=@6
+12 Tremolo
+//! c=long i=tremolo o=@7
+13 Tremolo Accented
+//! c=long i=trill o=@8
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-light i=staccato o=note@1:25
+20 Staccato Bold FFF
+//! c=short i=spiccato o=note@1:26
+18 Spiccato
+//! c=short i=spiccato o=note@1:27
+17 Spiccato Exposed
+//! c=long-dark i=accented-quarter o=note@1:28
+24 Portato Short
+//! c=long-dark i=tenuto-quarter o=note@1:29
+25 Portato Long
+//! c=short-dark i=pizz o=note@1:30
+44 Pizzicato
+//! c=short-dark i=pizz-bartok o=note@1:31
+46 Pizzicato Percussive
+//! c=long-dark i=accented-quarter o=note@1:32
+43 Martele FFF
+
+//! g="Orchestral Tools/Berlin Strings" n="03. Violas Full"
+//! m="Use corresponding Kontakt multi"
+Bank 1 8 OT-BS - Violas Full
+//! c=legato i=legato o=@5
+1 Legato
+//! c=long i=note-half o=@6
+6 Sustains Immediate
+//! c=long i=accented-half o=note@3:24
+7 Sustains Accented
+//! c=long i=note-whole o=@7
+8 Sustains Soft
+//! c=long i=tremolo o=note@3:27
+12 Tremolo
+//! c=long i=tremolo o=note@3:28
+13 Tremolo Accented
+//! c=long i=tremolo o=note@1:34
+14 Tremolos Sforzando
+//! c=long i=tremolo o=note@1:35
+15 Tremolos Hook
+//! c=long i=trill o=@10
+53 Trills
+//! c=long i=trill o=@11
+58 Trills Sforzando
+//! c=long i=trill o=note@2:24
+60 Trills Hook +1
+//! c=long i=trill o=note@2:25
+61 Trills Hook +2
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-light i=staccato o=note@1:25
+20 Staccato Bold FFF
+//! c=short-light i=staccato-overblown o=note@1:33
+21 Staccato Blurred
+//! c=short i=spiccato o=note@1:26
+18 Spiccato
+//! c=short i=spiccato o=note@1:27
+17 Spiccato Exposed
+//! c=long-dark i=tenuto-quarter o=note@1:28
+24 Portato Short
+//! c=long-dark i=tenuto-half o=note@1:29
+25 Portato Long
+//! c=long-dark i=accented-quarter o=note@3:25
+10 Espressivo Short
+//! c=long-dark i=accented-half o=note@3:26
+11 Espressivo Long
+//! c=short-dark i=pizz o=note@1:30
+44 Pizzicato
+//! c=short-dark i=pizz-bartok o=note@1:31
+46 Pizzicato Percussive
+//! c=long-dark i=accented-quarter o=note@1:32
+43 Martele FFF
+//! c=short-light i=tremolo-measured o=@8
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@9
+97 Repetitions Triplet
+//! c=fx i=crescendo o=@4
+105 Dynamics
+//! c=legato-light i=legato-runs o=@12
+65 Playable Glissandi
+
+//! g="Orchestral Tools/Berlin Strings" n="04. Celli Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 1 4 OT-BS - Celli Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=@4
+7 Sustains Accented
+//! c=long i=note-whole o=@5
+8 Sustains Soft
+//! c=long i=tremolo o=@6
+12 Tremolo
+//! c=long i=tremolo o=@7
+13 Tremolo Accented
+//! c=long i=trill o=@8
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short i=spiccato o=note@1:25
+18 Spiccato
+//! c=short i=spiccato o=note@1:26
+17 Spiccato Exposed
+//! c=long-dark i=accented-quarter o=note@1:27
+24 Portato Short
+//! c=long-dark i=tenuto-quarter o=note@1:28
+25 Portato Long
+//! c=short-dark i=pizz o=note@1:29
+44 Pizzicato
+//! c=long-dark i=accented-quarter o=note@1:30
+43 Martele FFF
+
+//! g="Orchestral Tools/Berlin Strings" n="04. Celli Full"
+//! m="Use corresponding Kontakt multi"
+Bank 1 9 OT-BS - Celli Full
+//! c=legato i=legato o=@6
+1 Legato
+//! c=long i=note-half o=@7
+6 Sustains Immediate
+//! c=long i=accented-half o=note@2:24
+7 Sustains Accented
+//! c=long i=note-whole o=@8
+8 Sustains Soft
+//! c=long i=tremolo o=note@2:27
+12 Tremolo
+//! c=long i=tremolo o=note@2:28
+13 Tremolo Accented
+//! c=long i=tremolo o=note@1:32
+14 Tremolos Sforzando
+//! c=long i=tremolo o=note@1:33
+15 Tremolos Hook
+//! c=long i=trill o=@11
+53 Trills
+//! c=long i=trill o=@12
+58 Trills Sforzando
+//! c=long i=trill o=note@1:34
+60 Trills Hook +1
+//! c=long i=trill o=note@1:35
+61 Trills Hook +2
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-light i=staccato-overblown o=note@1:31
+21 Staccato Blurred
+//! c=short i=spiccato o=note@1:25
+18 Spiccato
+//! c=short i=spiccato o=note@1:26
+17 Spiccato Exposed
+//! c=long-dark i=tenuto-quarter o=note@1:27
+24 Portato Short
+//! c=long-dark i=tenuto-half o=note@1:28
+25 Portato Long
+//! c=long-dark i=accented-quarter o=note@2:25
+10 Espressivo Short
+//! c=long-dark i=accented-half o=note@2:26
+11 Espressivo Long
+//! c=short-dark i=pizz o=note@1:29
+44 Pizzicato
+//! c=long-dark i=accented-quarter o=note@1:30
+43 Martele FFF
+//! c=short-light i=tremolo-measured o=@9
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@10
+97 Repetitions Triplet
+//! c=fx i=crescendo o=@3
+105 Dynamics
+//! c=legato-light i=legato-runs o=@4
+94 Octave Scale Runs Up
+//! c=legato-light i=legato-runs o=@5
+95 Octave Scale Runs Down
+//! c=legato-light i=legato-runs o=@13
+65 Playable Glissandi
+
+//! g="Orchestral Tools/Berlin Strings" n="05. Basses Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 1 5 OT-BS - Basses Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=@4
+7 Sustains Accented
+//! c=long i=note-whole o=@5
+8 Sustains Soft
+//! c=long i=tremolo o=@6
+12 Tremolo
+//! c=long i=tremolo o=@7
+13 Tremolo Accented
+//! c=long i=trill o=@8
+53 Trills
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-light i=staccato o=note@1:97
+20 Staccato Bold FFF
+//! c=short i=spiccato o=note@1:98
+18 Spiccato
+//! c=short i=spiccato o=note@1:99
+17 Spiccato Exposed
+//! c=long-dark i=accented-quarter o=note@1:100
+24 Portato Short
+//! c=long-dark i=tenuto-quarter o=note@1:101
+25 Portato Long
+//! c=short-dark i=pizz o=note@1:102
+44 Pizzicato
+//! c=long-dark i=accented-quarter o=note@1:103
+43 Martele FFF
+
+//! g="Orchestral Tools/Berlin Strings" n="05. Basses Full"
+//! m="Use corresponding Kontakt multi"
+Bank 1 10 OT-BS - Basses Full
+//! c=legato i=legato o=@4
+1 Legato
+//! c=long i=note-half o=@5
+6 Sustains Immediate
+//! c=long i=accented-half o=note@2:96
+7 Sustains Accented
+//! c=long i=note-whole o=note@2:97
+8 Sustains Soft
+//! c=long i=tremolo o=note@2:100
+12 Tremolo
+//! c=long i=tremolo o=note@2:101
+13 Tremolo Accented
+//! c=long i=trill o=@8
+53 Trills
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-light i=staccato o=note@1:97
+20 Staccato Bold FFF
+//! c=short i=spiccato o=note@1:98
+18 Spiccato
+//! c=short i=spiccato o=note@1:99
+17 Spiccato Exposed
+//! c=long-dark i=accented-quarter o=note@1:100
+24 Portato Short
+//! c=long-dark i=tenuto-quarter o=note@1:101
+25 Portato Long
+//! c=long-dark i=accented-quarter o=note@2:98
+10 Espressivo Short
+//! c=long-dark i=accented-half o=note@2:99
+11 Espressivo Long
+//! c=short-dark i=pizz o=note@1:102
+44 Pizzicato
+//! c=long-dark i=accented-quarter o=note@1:103
+43 Martele FFF
+//! c=short-light i=tremolo-measured o=@6
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@7
+97 Repetitions Triplet
+//! c=fx i=crescendo o=@3
+105 Dynamics
+
+// ==================================================
+// Berlin Woodwinds
+// ==================================================
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="01. Piccolo Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 2 1 OT-BW - Piccolo Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=@4
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@7
+53 Trills
+//! c=short-light i=tremolo-measured o=@5
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@6
+97 Repetitions Triplet
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="01. Piccolo Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 16 OT-BW - Piccolo Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=@4
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@7
+53 Trills
+//! c=long i=trill o=@8
+59 Trills Single
+//! c=long i=trill o=@9
+58 Trills Sforzando
+//! c=short-light i=tremolo-measured o=@5
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@6
+97 Repetitions Triplet
+//! c=legato-light i=legato-runs o=@10
+66 Playable Runs
+//! c=fx i=fx o=@11
+96 SFX
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="02. Flute 1 Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 2 2 OT-BW - Flute 1 Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:26
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:27
+24 Portato Short
+//! c=long i=trill o=@4
+53 Trills
+//! c=short-light i=staccato-sfz o=note@1:28
+27 Sforzando
+//! c=short-light i=multitongued o=note@1:29
+49 Double Tongue
+//! c=short-light i=multitongued o=note@1:30
+51 Triple Tongue
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="02. Flute 1 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 17 OT-BW - Flute 1 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:26
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:27
+24 Portato Short
+//! c=long i=trill o=@6
+53 Trills
+//! c=long i=trill-maj2 o=@7
+57 Trills Measured
+//! c=long i=trill o=@8
+59 Trills Single
+//! c=long i=trill o=@9
+58 Trills Sforzando
+//! c=short-light i=staccato-sfz o=note@1:28
+27 Sforzando
+//! c=short-light i=multitongued o=note@1:29
+49 Double Tongue
+//! c=short-light i=multitongued o=@4
+50 Double Tongue Measured
+//! c=short-light i=multitongued o=note@1:30
+51 Triple Tongue
+//! c=short-light i=multitongued o=@5
+52 Triple Tongue Measured
+//! c=legato-light i=legato-runs o=@10
+66 Playable Runs
+//! c=fx i=fx o=@11
+96 SFX
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="03. Flute 2 Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 2 3 OT-BW - Flute 2 Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=accented-half o=@5
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@8
+53 Trills
+//! c=short-light i=tremolo-measured o=@6
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@7
+97 Repetitions Triplet
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="03. Flute 2 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 18 OT-BW - Flute 2 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=accented-half o=@5
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@8
+53 Trills
+//! c=long i=trill-maj2 o=@9
+57 Trills Measured
+//! c=long i=trill o=@10
+59 Trills Single
+//! c=long i=trill o=@11
+58 Trills Sforzando
+//! c=short-light i=tremolo-measured o=@6
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@7
+97 Repetitions Triplet
+//! c=fx i=fx o=@12
+96 SFX
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="04. Flute 3 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Woodwinds/03. Flute 2 Basic"
+Bank 2 4 OT-BW - Flute 3 Basic
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="04. Flute 3 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 19 OT-BW - Flute 3 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=accented-half o=@5
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@8
+53 Trills
+//! c=long i=trill o=@9
+59 Trills Single
+//! c=long i=trill o=@10
+58 Trills Sforzando
+//! c=short-light i=tremolo-measured o=@6
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@7
+97 Repetitions Triplet
+//! c=legato-light i=legato-runs o=@11
+66 Playable Runs
+//! c=fx i=fx o=@12
+96 SFX
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="05. Alto Flute"
+//! m="Use corresponding Kontakt multi"
+Bank 2 5 OT-BW - Alto Flute
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=short-dark i=spiccato o=note@1:24
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:25
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:26
+24 Portato Short
+//! c=legato-light i=legato-runs o=@5
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="06. Oboe 1 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Woodwinds/03. Flute 2 Basic"
+Bank 2 6 OT-BW - Oboe 1 Basic
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="06. Oboe 1 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 20 OT-BW - Oboe 1 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=accented-half o=@5
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@8
+53 Trills
+//! c=long i=trill-maj2 o=@9
+57 Trills Measured
+//! c=long i=trill o=@10
+59 Trills Single
+//! c=long i=trill o=@11
+58 Trills Sforzando
+//! c=short-light i=tremolo-measured o=@6
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@7
+97 Repetitions Triplet
+//! c=legato-light i=legato-runs o=@12
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="07. Oboe 2 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Woodwinds/03. Flute 2 Basic"
+Bank 2 7 OT-BW - Oboe 2 Basic
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="07. Oboe 2 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 21 OT-BW - Oboe 2 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=accented-half o=@5
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@8
+53 Trills
+//! c=long i=trill o=@9
+59 Trills Single
+//! c=long i=trill o=@10
+58 Trills Sforzando
+//! c=short-light i=tremolo-measured o=@6
+36 Repetitions 16th
+//! c=short-light i=tremolo-measured o=@7
+97 Repetitions Triplet
+//! c=legato-light i=legato-runs o=@11
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="08. English Horn Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 2 8 OT-BW - English Horn Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=accented-half o=@5
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@6
+53 Trills
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="08. English Horn Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 22 OT-BW - English Horn Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=accented-half o=@5
+7 Sustains Accented
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=long i=trill o=@6
+53 Trills
+//! c=long i=trill-maj2 o=@7
+57 Trills Measured
+//! c=long i=trill o=@8
+59 Trills Single
+//! c=long i=trill o=@9
+58 Trills Sforzando
+//! c=legato-light i=legato-runs o=@10
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="09. Clarinet 1 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Woodwinds/03. Flute 2 Basic"
+Bank 2 9 OT-BW - Clarinet 1 Basic
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="09. Clarinet 1 Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Woodwinds/04. Flute 3 Full"
+Bank 2 23 OT-BW - Clarinet 1 Full
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="10. Clarinet 2 Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 2 10 OT-BW - Clarinet 2 Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:26
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:27
+24 Portato Short
+//! c=long i=trill o=@4
+53 Trills
+//! c=short-light i=multitongued o=note@1:28
+49 Double Tongue
+//! c=short-light i=multitongued o=note@1:29
+51 Triple Tongue
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="10. Clarinet 2 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 24 OT-BW - Clarinet 2 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:26
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:27
+24 Portato Short
+//! c=long i=trill o=@6
+53 Trills
+//! c=long i=trill-maj2 o=@7
+57 Trills Measured
+//! c=long i=trill o=@8
+59 Trills Single
+//! c=long i=trill o=@9
+58 Trills Sforzando
+//! c=short-light i=multitongued o=note@1:28
+49 Double Tongue
+//! c=short-light i=multitongued o=@4
+50 Double Tongue Measured
+//! c=short-light i=multitongued o=note@1:29
+51 Triple Tongue
+//! c=short-light i=multitongued o=@5
+52 Triple Tongue Measured
+//! c=legato-light i=legato-runs o=@10
+66 Playable Runs
+//! c=fx i=fx o=@11
+96 SFX
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="11. Bassoon 1 Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 2 11 OT-BW - Bassoon 1 Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:98
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:99
+24 Portato Short
+//! c=long i=trill o=@4
+53 Trills
+//! c=short-light i=staccato-sfz o=note:100
+27 Sforzando
+//! c=short-light i=multitongued o=note@1:101
+49 Double Tongue
+//! c=short-light i=multitongued o=note@1:102
+51 Triple Tongue
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="11. Bassoon 1 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 25 OT-BW - Bassoon 1 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:98
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:99
+24 Portato Short
+//! c=long i=trill o=@6
+53 Trills
+//! c=short-light i=staccato-sfz o=note:100
+27 Sforzando
+//! c=short-light i=accented-quarter o=note:101
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:102
+49 Double Tongue
+//! c=short-light i=multitongued o=@4
+50 Double Tongue Measured
+//! c=short-light i=multitongued o=note@1:103
+51 Triple Tongue
+//! c=short-light i=multitongued o=@5
+52 Triple Tongue Measured
+//! c=fx i=fx o=@7
+96 SFX
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="12. Bassoon 2 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Woodwinds/11. Bassoon 1 Basic"
+Bank 2 12 OT-BW - Bassoon 2 Basic
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="12. Bassoon 2 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 2 26 OT-BW - Bassoon 2 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:98
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:99
+24 Portato Short
+//! c=long i=trill o=@6
+53 Trills
+//! c=short-light i=staccato-sfz o=note:100
+27 Sforzando
+//! c=short-light i=multitongued o=note@1:101
+49 Double Tongue
+//! c=short-light i=multitongued o=@4
+50 Double Tongue Measured
+//! c=short-light i=multitongued o=note@1:102
+51 Triple Tongue
+//! c=short-light i=multitongued o=@5
+52 Triple Tongue Measured
+//! c=fx i=fx o=@7
+96 SFX
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="13. Eb Clarinet"
+//! m="Use corresponding Kontakt multi"
+Bank 2 13 OT-BW - Eb Clarinet
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=long i=trill o=@4
+53 Trills
+//! c=short-dark i=staccato o=note@1:24
+19 Staccato
+//! c=long-dark i=tenuto-eighth o=note@1:25
+24 Portato Short
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="14. Bass Clarinet"
+//! m="Use corresponding Kontakt multi"
+Bank 2 14 OT-BW - Bass Clarinet
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=long i=trill o=@4
+53 Trills
+//! c=short-dark i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=tenuto-quarter o=note@1:98
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:99
+24 Portato Short
+//! c=short-light i=staccato-sfz o=note:100
+27 Sforzando
+//! c=short-light i=multitongued o=note@1:101
+49 Double Tongue
+//! c=short-light i=multitongued o=note@1:102
+51 Triple Tongue
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="15. Contrabassoon"
+//! m="Use corresponding Kontakt multi"
+Bank 2 15 OT-BW - Contrabassoon
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+5 Sustains
+//! c=short-dark i=staccato o=note@1:96
+19 Staccato
+//! c=long-dark i=tenuto-quarter o=note@1:97
+25 Portato Long
+//! c=long-dark i=tenuto-eighth o=note@1:98
+24 Portato Short
+//! c=short-light i=staccato-sfz o=note:99
+27 Sforzando
+//! c=short-light i=multitongued o=note@1:100
+49 Double Tongue
+//! c=short-light i=multitongued o=note@1:101
+51 Triple Tongue
+
+// ==================================================
+// Berlin Brass
+// ==================================================
+
+//! g="Orchestral Tools/Berlin Brass" n="01. Horn 1 Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 3 1 OT-BS - Horn 1 Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=@4
+7 Sustains Accented
+//! c=long i=note-whole o=@5
+8 Sustains Soft
+//! c=long i=trill o=@6
+53 Trills
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:98
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:99
+22 Marcato Short
+//! c=short-light i=multitongued o=note@1:100
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:101
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:102
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:103
+38 Repetitions 16th Continuous
+
+//! g="Orchestral Tools/Berlin Brass" n="01. Horn 1 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 3 16 OT-BS - Horn 1 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=note@1:104
+6 Sustains Immediate
+//! c=long i=accented-half o=note@1:105
+7 Sustains Accented
+//! c=long i=note-whole o=note@1:106
+8 Sustains Soft
+//! c=long i=trill o=@3
+53 Trills
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:98
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:99
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note:107
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:100
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:101
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:102
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:103
+38 Repetitions 16th Continuous
+//! c=fx i=crescendo o=@4
+30 Crescendo Short
+//! c=fx i=crescendo o=@5
+31 Crescendo Long
+//! c=fx i=crescendo o=@6
+32 Swell Short
+//! c=fx i=crescendo o=@7
+33 Swell Long
+//! c=legato-light i=legato-runs o=@8
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Brass" n="02. Horn 2 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Basic"
+Bank 3 2 OT-BB - Horn 2 Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="02. Horn 2 Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Full"
+Bank 3 17 OT-BB - Horn 2 Full
+
+//! g="Orchestral Tools/Berlin Brass" n="03. Horn 3 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Basic"
+Bank 3 3 OT-BB - Horn 3 Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="03. Horn 3 Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Full"
+Bank 3 18 OT-BB - Horn 3 Full
+
+//! g="Orchestral Tools/Berlin Brass" n="04. Horn 4 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Basic"
+Bank 3 4 OT-BB - Horn 4 Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="04. Horn 4 Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Full"
+Bank 3 19 OT-BB - Horn 4 Full
+
+//! g="Orchestral Tools/Berlin Brass" n="05. Horn Ensemble Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Basic"
+Bank 3 5 OT-BB - Horn Ensemble Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="05. Horn Ensemble Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/01. Horn 1 Full"
+Bank 3 20 OT-BB - Horn Ensemble Full
+
+//! g="Orchestral Tools/Berlin Brass" n="05. Horn Ensemble Bells Up"
+//! m="Use corresponding Kontakt multi"
+Bank 3 15 Horn Ensemble Bells Up
+//! c=long i=note-half o=@1
+6 Sustains Immediate
+//! c=short-light i=staccato o=@2
+19 Staccato
+//! c=long-dark i=marcato-half o=@4
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=@3
+22 Marcato Short
+
+//! g="Orchestral Tools/Berlin Brass" n="06. Trumpet 1 Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 3 6 OT-BB - Trumpet 1 Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=4
+7 Sustains Accented
+//! c=long i=note-whole o=@5
+8 Sustains Soft
+//! c=long i=trill o=@6
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=short-light i=multitongued o=note@1:28
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:29
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:30
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:31
+38 Repetitions 16th Continuous
+
+//! g="Orchestral Tools/Berlin Brass" n="06. Trumpet 1 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 3 21 OT-BB - Trumpet 1 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=note@1:32
+7 Sustains Accented
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=trill o=@5
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:33
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:28
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:29
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:30
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:31
+38 Repetitions 16th Continuous
+//! c=fx i=crescendo o=@6
+30 Crescendo Short
+//! c=fx i=crescendo o=@7
+31 Crescendo Long
+//! c=fx i=crescendo o=@8
+32 Swell Short
+//! c=fx i=crescendo o=@9
+33 Swell Long
+//! c=legato-light i=legato-runs o=@10
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Brass" n="07. Trumpet 2 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/06. Trumpet 1 Basic"
+Bank 3 7 OT-BB - Trumpet 2 Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="07. Trumpet 2 Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/06. Trumpet 1 Full"
+Bank 3 22 OT-BB - Trumpet 2 Full
+
+//! g="Orchestral Tools/Berlin Brass" n="08. Trumpet 3 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/06. Trumpet 1 Basic"
+Bank 3 8 OT-BB - Trumpet 3 Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="08. Trumpet 3 Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/06. Trumpet 1 Full"
+Bank 3 23 OT-BB - Trumpet 3 Full
+
+//! g="Orchestral Tools/Berlin Brass" n="09. Trumpet Ensemble Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/06. Trumpet 1 Basic"
+Bank 3 9 OT-BB - Trumpet Ensemble Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="09. Trumpet Ensemble Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/06. Trumpet 1 Full"
+Bank 3 24 OT-BB - Trumpet Ensemble Full
+
+//! g="Orchestral Tools/Berlin Brass" n="10. Trombone 1 Basic"
+//! m="Use corresponding Kontakt multi"
+Bank 3 10 OT-BS - Trombone 1 Basic
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=note@1:104
+7 Sustains Accented
+//! c=long i=note-whole o=@5
+8 Sustains Soft
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:98
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:99
+22 Marcato Short
+//! c=short-light i=multitongued o=note@1:100
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:101
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:102
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:103
+38 Repetitions 16th Continuous
+
+//! g="Orchestral Tools/Berlin Brass" n="10. Trombone 1 Full"
+//! m="Use corresponding Kontakt multi"
+Bank 3 25 OT-BS - Trombone 1 Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=note@1:104
+7 Sustains Accented
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:98
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:99
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:105
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:100
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:101
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:102
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:103
+38 Repetitions 16th Continuous
+//! c=fx i=crescendo o=@5
+30 Crescendo Short
+//! c=fx i=crescendo o=@6
+31 Crescendo Long
+//! c=fx i=crescendo o=@7
+32 Swell Short
+//! c=fx i=crescendo o=@8
+33 Swell Long
+//! c=legato-light i=legato-runs o=@9
+4 Legato Glissando
+
+//! g="Orchestral Tools/Berlin Brass" n="11. Trombone 2 Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/10. Trombone 1 Basic"
+Bank 3 11 OT-BB - Trombone 2 Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="11. Trombone 2 Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/10. Trombone 1 Full"
+Bank 3 26 OT-BB - Trombone 2 Full
+
+//! g="Orchestral Tools/Berlin Brass" n="12. Bass Trombone Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/10. Trombone 1 Basic"
+Bank 3 12 OT-BB - Bass Trombone Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="12. Bass Trombone Full"
+//! m="Use corresponding Kontakt multi"
+Bank 3 27 OT-BB - Bass Trombone Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=note@1:104
+6 Sustains Immediate
+//! c=long i=accented-half o=note@1:105
+7 Sustains Accented
+//! c=long i=note-whole o=note@1:106
+8 Sustains Soft
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:98
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:99
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:107
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:100
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:101
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:102
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:103
+38 Repetitions 16th Continuous
+//! c=fx i=crescendo o=@3
+30 Crescendo Short
+//! c=fx i=crescendo o=@4
+31 Crescendo Long
+//! c=fx i=crescendo o=@5
+32 Swell Short
+//! c=fx i=crescendo o=@6
+33 Swell Long
+//! c=legato-light i=legato-runs o=@7
+4 Legato Glissando
+
+//! g="Orchestral Tools/Berlin Brass" n="13. Trombone Ensemble Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/10. Trombone 1 Basic"
+Bank 3 13 OT-BB - Trombone Ensemble Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="13. Trombone Ensemble Full"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/10. Trombone 1 Full"
+Bank 3 28 OT-BB - Trombone Ensemble Full
+
+//! g="Orchestral Tools/Berlin Brass" n="14. Tuba Basic"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/10. Trombone 1 Basic"
+Bank 3 14 OT-BB - Tuba Basic
+
+//! g="Orchestral Tools/Berlin Brass" n="14. Tuba Full"
+//! m="Use corresponding Kontakt multi"
+Bank 3 29 OT-BB - Tuba Full
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=accented-half o=note@1:104
+7 Sustains Accented
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=short-light i=staccato o=note@1:96
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:97
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:98
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:99
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:105
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:100
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:101
+42 Repetitions Triplets Continuous
+//! c=short-light i=multitongued o=note@1:102
+37 Repetitions 16th Phrase
+//! c=short-light i=multitongued o=note@1:103
+38 Repetitions 16th Continuous
+//! c=fx i=crescendo o=@5
+30 Crescendo Short
+//! c=fx i=crescendo o=@6
+31 Crescendo Long
+//! c=fx i=crescendo o=@7
+32 Swell Short
+//! c=fx i=crescendo o=@8
+33 Swell Long
+//! c=legato-light i=legato-runs o=@9
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Brass" n="15. Piccolo Trumpet"
+//! m="Use corresponding Kontakt multi"
+Bank 3 30 OT-BB - Piccolo Trumpet
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=trill o=@5
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:30
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:28
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:29
+37 Repetitions 16th Phrase
+//! c=fx i=crescendo o=@6
+30 Crescendo Short
+//! c=fx i=crescendo o=@7
+31 Crescendo Long
+//! c=legato-light i=legato-runs o=@8
+66 Playable Runs
+
+//! g="Orchestral Tools/Berlin Brass" n="16. Bass Trumpet"
+//! m="Use corresponding Kontakt multi"
+Bank 3 31 OT-BB - Bass Trumpet
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=trill o=@5
+53 Trills
+//! c=short-light i=staccato o=note@1:24
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:25
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:26
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:27
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:30
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:28
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:29
+37 Repetitions 16th Phrase
+//! c=fx i=crescendo o=@6
+30 Crescendo Short
+//! c=fx i=crescendo o=@7
+31 Crescendo Long
+
+//! g="Orchestral Tools/Berlin Brass" n="17. Euphonium"
+//! m="Use corresponding Kontakt multi"
+Bank 3 32 OT-BB - Euphonium
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=@3
+6 Sustains Immediate
+//! c=long i=note-whole o=@4
+8 Sustains Soft
+//! c=long i=trill o=@5
+53 Trills
+//! c=short-dark i=spiccato o=note@1:24
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:25
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:26
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:29
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:27
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:28
+37 Repetitions 16th Phrase
+//! c=fx i=crescendo o=@6
+30 Crescendo Short
+//! c=fx i=crescendo o=@7
+31 Crescendo Long
+//! c=fx i=crescendo o=@8
+32 Swell Short
+//! c=fx i=crescendo o=@9
+33 Swell Long
+
+//! g="Orchestral Tools/Berlin Brass" n="18. Contrabass Trombone"
+//! m="Use corresponding Kontakt multi"
+Bank 3 33 OT-BB - Contrabass Trombone
+//! c=long i=note-half o=note@1:96
+6 Sustains Immediate
+//! c=long i=note-whole o=note@1:97
+8 Sustains Soft
+//! c=short-light i=staccato o=note@1:98
+19 Staccato
+//! c=short-dark i=spiccato o=note@1:99
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:100
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:101
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:102
+28 Fortepiano
+//! c=fx i=crescendo o=@2
+30 Crescendo Short
+//! c=fx i=crescendo o=@3
+31 Crescendo Long
+//! c=fx i=crescendo o=@4
+32 Swell Short
+//! c=fx i=crescendo o=@5
+33 Swell Long
+
+//! g="Orchestral Tools/Berlin Brass" n="19. Horn 1 Stopped"
+//! m="Use corresponding Kontakt multi"
+Bank 3 34 OT-BB - Horn 1 Stopped
+//! c=legato i=legato o=@2
+1 Legato
+//! c=long i=note-half o=note@1:24
+6 Sustains Immediate
+//! c=long i=note-whole o=note@1:25
+8 Sustains Soft
+//! c=short-dark i=spiccato o=note@1:26
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:27
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:28
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:31
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:29
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:30
+37 Repetitions 16th Phrase
+//! c=fx i=crescendo o=@3
+30 Crescendo Short
+//! c=fx i=crescendo o=@4
+31 Crescendo Long
+
+//! g="Orchestral Tools/Berlin Brass" n="20. Horn 2 Stopped"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/19. Horn 1 Stopped"
+Bank 3 35 OT-BB - Horn 2 Stopped
+
+//! g="Orchestral Tools/Berlin Brass" n="21. Horn Ensemble Stopped"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/19. Horn 1 Stopped"
+Bank 3 36 OT-BB - Horn Ensemble Stopped
+
+//! g="Orchestral Tools/Berlin Brass" n="22. Trumpet 1 Muted"
+//! m="Use corresponding Kontakt multi"
+Bank 3 37 OT-BB - Trumpet 1 Muted
+//! c=long-light i=stopped g=2
+125 Straight Mute
+//! c=long-light i=stopped g=2
+126 Harmon Stem Half
+//! c=long-light i=stopped g=2
+127 Harmon Stem In
+//! c=legato i=legato o=@4%125/@5%126/@6%127
+1 Legato
+//! c=long i=note-half o=note@1:24%125/note@2:24%126/note@3:24%127
+6 Sustains Immediate
+//! c=long i=note-whole o=note@1:25%125/note@2:25%126/note@3:25%127
+8 Sustains Soft
+//! c=short-dark i=spiccato o=note@1:26%125/note@2:26%126/note@3:26%127
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:27%125/note@2:27%126/note@3:27%127
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:28%125/note@2:28%126/note@3:28%127
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:31%125/note@2:31%126/note@3:31%127
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:29%125/note@2:29%126/note@3:29%127
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:30%125/note@2:30%126/note@3:30%127
+37 Repetitions 16th Phrase
+//! c=fx i=crescendo o=@7%125/@8%126/@9%127
+30 Crescendo Short
+//! c=fx i=crescendo o=@10%125/@11%126/@12%127
+31 Crescendo Long
+
+//! g="Orchestral Tools/Berlin Brass" n="23. Trumpet 2 Muted"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/22. Trumpet 1 Muted"
+Bank 3 38 OT-BB - Trumpet 2 Muted
+
+//! g="Orchestral Tools/Berlin Brass" n="24. Trumpet Ensemble Muted"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/22. Trumpet 1 Muted"
+Bank 3 39 OT-BB - Trumpet Ensemble Muted
+
+//! g="Orchestral Tools/Berlin Brass" n="25. Trombone 1 Muted"
+//! m="Use corresponding Kontakt multi"
+Bank 3 40 OT-BB - Trombone 1 Muted
+//! c=long-light i=stopped g=2
+125 Straight Mute
+//! c=long-light i=stopped g=2
+126 Harmon Stem Half
+//! c=long-light i=stopped g=2
+127 Harmon Stem In
+//! c=long i=note-half o=note@1:24%125/note@2:24%126/note@3:24%127
+6 Sustains Immediate
+//! c=long i=note-whole o=note@1:25%125/note@2:25%126/note@3:25%127
+8 Sustains Soft
+//! c=short-dark i=spiccato o=note@1:26%125/note@2:26%126/note@3:26%127
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:27%125/note@2:27%126/note@3:27%127
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:28%125/note@2:28%126/note@3:28%127
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:31%125/note@2:31%126/note@3:31%127
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:29%125/note@2:29%126/note@3:29%127
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:30%125/note@2:30%126/note@3:30%127
+37 Repetitions 16th Phrase
+//! c=fx i=crescendo o=@4%125/@5%126/@6%127
+30 Crescendo Short
+//! c=fx i=crescendo o=@7%125/@8%126/@9%127
+31 Crescendo Long
+
+//! g="Orchestral Tools/Berlin Brass" n="26. Trombone 2 Muted"
+//! m="Use corresponding Kontakt multi"
+//! clone="Orchestral Tools/Berlin Brass/25. Trombone 1 Muted"
+Bank 3 41 OT-BB - Trombone 2 Muted
+
+//! g="Orchestral Tools/Berlin Brass" n="27. Bass Trombone Muted"
+//! m="Use corresponding Kontakt multi"
+Bank 3 42 OT-BB - Bass Trombone Muted
+//! c=long-light i=stopped g=2
+125 Straight Mute
+//! c=long-light i=stopped g=2
+126 Harmon Stem Half
+//! c=long-light i=stopped g=2
+127 Harmon Stem In
+//! c=long i=note-half o=note@1:96%125/note@2:96%126/note@3:96%127
+6 Sustains Immediate
+//! c=long i=note-whole o=note@1:97%125/note@2:97%126/note@3:97%127
+8 Sustains Soft
+//! c=short-dark i=spiccato o=note@1:98%125/note@2:98%126/note@3:98%127
+16 Staccatissimo
+//! c=long-dark i=marcato-half o=note@1:99%125/note@2:99%126/note@3:99%127
+23 Marcato Long
+//! c=long-dark i=marcato-quarter o=note@1:100%125/note@2:100%126/note@3:100%127
+22 Marcato Short
+//! c=short-light i=accented-quarter o=note@1:103%125/note@2:103%126/note@3:103%127
+28 Fortepiano
+//! c=short-light i=multitongued o=note@1:101%125/note@2:101%126/note@3:101%127
+41 Repetitions Triplets Phrase
+//! c=short-light i=multitongued o=note@1:102%125/note@2:102%126/note@3:102%127
+37 Repetitions 16th Phrase
+//! c=fx i=crescendo o=@4%125/@5%126/@6%127
+30 Crescendo Short
+//! c=fx i=crescendo o=@7%125/@8%126/@9%127
+31 Crescendo Long
