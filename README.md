@@ -63,3 +63,9 @@ Now, I can simply right-click and add the instrument I need from the correspondi
   - For example, the flute instrument has an SFX articulation, which requires the Woodwinds SFX library.
   - Suppose you do not have the corresponding libraries. In that case, you can resave the multi and track template without the patches for which you do not have licences and remove the corresponding articulation in the Reabank file.
 - The Zampano articulations for the trumpet in Berlin Brass have not been added yet, but they will be.
+
+## Screenshots
+
+![Screenshot of the insert track template menu](https://user-images.githubusercontent.com/9868643/116926890-cdabb000-ac0f-11eb-9a98-489eb09cc9a8.png)
+![Screenshot of REAPER with a few tracks and Reaticulate loaded](https://user-images.githubusercontent.com/9868643/116927032-f764d700-ac0f-11eb-84e2-862fb109740f.png)
+![Screenshot of Kontakt with a multi loaded](https://user-images.githubusercontent.com/9868643/116927157-224f2b00-ac10-11eb-928c-c16abd637dc5.png)
