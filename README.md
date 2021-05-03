@@ -46,7 +46,7 @@ Now, I can simply right-click and add the instrument I need from the correspondi
 
 ## Installation
 
-1. Download the `Reaticulate.reabank` file from this repository and copy it into the `Data` folder in your REAPER application data directory (`%APPDATA%\REAPER` on Windows, `~/Library/Application Support/REAPER` on macOS, `~/.config/REAPER` on Linux).
+1. Download the [reabank file](Reaticulate.reabank) (`Reaticulate.reabank`) from this repository and copy it into the `Data` folder in your REAPER application data directory (`%APPDATA%\REAPER` on Windows, `~/Library/Application Support/REAPER` on macOS, `~/.config/REAPER` on Linux).
 2. Download and extract the [multi and track template archive](https://www.dropbox.com/s/6aehnhbzb1ln48d/orchtools-reaper.7z?dl=0).
 3. Move the contents of the `REAPER` folder to your REAPER application data directory.
 4. Move the contents of the `NIContent` folder to the folder where you store your Berlin series Kontakt libraries.
